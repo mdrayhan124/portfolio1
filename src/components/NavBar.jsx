@@ -23,9 +23,9 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className='absolute top-0 z-40 px-8 py-10'>
+            <nav className='absolute top-0 z-[999] px-8 py-10'>
                 <Flex className={"relative"}>
-                    <FaBars className='text-[#f9efe4] text-[30px]' onClick={handleOpen} />
+                    <FaBars className='text-[#f9efe4] sm:text-[30px]' onClick={handleOpen} />
                     {
                         open && (
                             <motion.div className='bg-white w-[300px] top-10 left-0 absolute z-100 flex flex-col text-black rounded-3xl'>
